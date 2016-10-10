@@ -1,0 +1,8 @@
+import jsonviews.Session
+
+model {
+    List<Session> sessions = []
+}
+json tmpl.sessionInfo(sessions)
+//json tmpl.sessionInfo(sessions: sessions)
+//json g.render(template: 'sessionInfo', model: [sessions: sessions])
