@@ -1,8 +1,9 @@
-import jsonviews.Session
+import jsonview.Session
 
 model {
     Session session
 }
+
 json g.render(session, [excludes:['project', 'startDate']]) {
     username session.creator.username
     project session.project.name

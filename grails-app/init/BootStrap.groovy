@@ -1,6 +1,6 @@
-import jsonviews.Project
-import jsonviews.Session
-import jsonviews.User
+import jsonview.Project
+import jsonview.Session
+import jsonview.User
 
 class BootStrap {
 

@@ -1,6 +1,7 @@
 package jsonviews
 
 import grails.test.mixin.TestFor
+import jsonview.SessionController
 import spock.lang.Specification
 
 /**

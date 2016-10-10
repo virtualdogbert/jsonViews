@@ -1,4 +1,4 @@
-package jsonviews
+package jsonview
 
 class User {
     String username
